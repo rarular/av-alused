@@ -11,6 +11,10 @@ From Ping to HTTP
 
 Kasutan testkeskkonda https://cloud.google.com/shell
 
+SSH - Secure Shell Protocol (SSH). a cryptographic network protocol for operating network services securely over an unsecured network. Its most notable applications are remote login and command-line execution
+HTTP - Hypertext Transfer Protocol. Application layer protocol fot transmitting hypermedia documents (HTML)
+
+
 Käsud:
 
 sudo apt-get update - bring up to date
@@ -46,7 +50,17 @@ printf 'HEAD / HTTP/1.1\r\nHost: wwww.google.com\r\n\r\n' | nc www.google.com 80
 ![image](https://user-images.githubusercontent.com/115222040/196381013-a582295f-0393-4183-9df6-b050923816c4.png)
 ![image](https://user-images.githubusercontent.com/115222040/196381512-565640e5-2e60-4ddf-89b4-133bb5731f50.png)
 
+TCP - Transmission Control Protocol. a set of rules that governs the delivery of data over the Internet or other network that uses the Internet Protocol, and sets up a connection between the sending and receiving computers. TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network
+UDP- User Datagram Protocol. Transport Layer protocol. UDP is a part of the Internet Protocol suite, referred to as UDP/IP suite. Unlike TCP, it is an unreliable and connectionless protocol. So, there is no need to establish a connection prior to data transfer. 
 
+
+man nc -BSD General Command Manual
+
+"Client/server"
+
+How would you get nc to listen on port 3456?
+
+Mul puudub manualis klient/server osa
 
 
 
