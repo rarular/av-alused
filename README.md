@@ -40,3 +40,13 @@ nc - net cat - manually talking to internet services
 pipe | võtab ühe programi outputi ja edastab teisele programmile inputina
 
 ![image](https://user-images.githubusercontent.com/115222040/196377775-c02dfc2a-bb49-4733-98d7-ae22e8e48858.png)
+
+printf 'HEAD / HTTP/1.1\r\nHost: wwww.google.com\r\n\r\n' | nc www.google.com 80 - server gws
+
+![image](https://user-images.githubusercontent.com/115222040/196381013-a582295f-0393-4183-9df6-b050923816c4.png)
+![image](https://user-images.githubusercontent.com/115222040/196381512-565640e5-2e60-4ddf-89b4-133bb5731f50.png)
+
+
+
+
+
