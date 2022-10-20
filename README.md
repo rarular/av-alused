@@ -18,6 +18,7 @@ HTTP - Hypertext Transfer Protocol. Application layer protocol fot transmitting 
 Käsud:
 
 sudo apt-get update - bring up to date
+
 sudo apt-get install netcat-openbsd tcpdump traceroute mtr - network utility programs
 
 Katsetamiseks:
