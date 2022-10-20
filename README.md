@@ -63,5 +63,7 @@ How would you get nc to listen on port 3456?
 
 Mul puudub manualis klient/server osa
 
-Tegin kaks akent, kus ühes käsklus nc -l ning teises localhost
+Tegin kaks akent, kus ühes käsklus nc -l 3456 teises nc localhost 3456, iga järgnev text, mis teise aknasse sisestada on kuvatud esimeses aknas
+
+Loeng 20.10
 
