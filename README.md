@@ -67,3 +67,17 @@ Tegin kaks akent, kus 체hes k채sklus nc -l 3456 teises nc localhost 3456, iga j�
 
 Loeng 20.10
 
+ip aadressid
+ssh v천tmed ja nende kasutamine
+webhosting 
+github
+
+##Avalik/salajane v천ti
+- autentimine
+
+- autoriseerimine
+
+- kr체pteerimine
+
+Githubis, saab seda kasutada settingutes -> SSH
+Git CMD
