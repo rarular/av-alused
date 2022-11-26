@@ -65,6 +65,15 @@ Mul puudub manualis klient/server osa
 
 Tegin kaks akent, kus ühes käsklus nc -l 3456 teises nc localhost 3456, iga järgnev text, mis teise aknasse sisestada on kuvatud esimeses aknas
 
+
+
+
+
+
+
+
+
+
 Loeng 20.10
 
 ip aadressid
