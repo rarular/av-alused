@@ -84,6 +84,7 @@ lsof käsklus kuulab avatud faile, sh võrguühendusi.
 
 selle käsklusega: printf 'HTTP/1.1 302 Moved\r\nLocation: https://www.eff.org/' | nc -l 2345 ja minnes browseris vastavale ip- aadressile, suunatakse eff.org veebilehele. Browseri request kuvatakse nc-s
 
+2.Names and Addresses
 
 
 Loeng 20.10
