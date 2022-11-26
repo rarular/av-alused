@@ -113,6 +113,11 @@ NS - dns nimeserver
 
 ![image](https://user-images.githubusercontent.com/115222040/204098467-4fd8a2f8-4029-4c07-94ec-b06c40fb85c1.png)
 
+CACHE - vahemälu/kohalik mälu (koduruuter), mis salvestab teatud ajaks ip aadressi, et klient ei peaks seda uuesti DNSist küsima.
+TTL - time to live ehk aeg, kui kauaks info cache'itud on, et juhul, kui ip muutub, siis leitaks leht ikka üles
+Headeris on hosti/domeeni nimi, sest neid võib ühel lehel olla mitu või samanimelistel lehtedel olla erinevad.
+Kui veebirakendus paigaldab küpsise, siis see on seotud kindla domeeninimega ja järgmise requestiga saadetakse see küpsis tagasi. SSL krüpteering on välja antud kindlale domeenile, sellega takistatakse kolmandatel pooltel privaatset infot lugeda ja kindlustatakse, et klient avab oodatava lehe õigest serverist (mitte mõne pahalase lehe)
+
 
 
 
