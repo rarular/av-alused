@@ -101,6 +101,17 @@ HOST käsklus aitab leida üles utilitid läbi DNSi
 nt:
 ![image](https://user-images.githubusercontent.com/115222040/204097599-43b82ae1-1713-4a6b-8353-e67bc5b1a1a5.png)
 
+Host käskluse manuali saab avada käsklusega man host
+Host käskluse alternatiiv:
+dig
+See näitab sama infot (ja natuke metadatat), kuid  loetavam scriptide jaoks ja sarnasem sellele, kuidas seda infot DNSis säilitatakse
+
+DNS kirjeid on mitut tüüpi, näiteks:
+AAAA - ipv6aadress
+CNAME - canonical name (ametlik nimi), kasutatakse aliase loomiseks
+NS - dns nimeserver
+
+![image](https://user-images.githubusercontent.com/115222040/204098467-4fd8a2f8-4029-4c07-94ec-b06c40fb85c1.png)
 
 
 
