@@ -86,6 +86,25 @@ selle käsklusega: printf 'HTTP/1.1 302 Moved\r\nLocation: https://www.eff.org/'
 
 2.Names and Addresses
 
+Host - masin, mis hoiab endas mingeid teenuseid.
+Endpoint - kaks masinat suhtlemas üle ühenduse
+
+Ping a hostname
+Ping yahoo.com annab vastuste hulgas ka hosti ip aadressi
+Ping käsklus jookseb kuni ctrl+c käsuni või tuleb käsklusesse märkida, mitu pingi teha nt - ping -c 4 yahoo.com (4X)
+Nt google.com'il ei ole ainult ühte hosti ja seega võib mitme pingimise vastused olla erinevad
+Hosti nimi tõlgitakse ip aadressiks läbi DNSi (domain name system)
+A-record - kasutatakse, et leida arvuti aadressi, tema nime järgi. Browserid vaatavad need recordid läbi, et leida õige aadress/teenus.
+Veebilehe omanikud peavad registreerima oma domeeni mõne teenuse pakkuja juures, et lehe ip aadress oleks registreeritud/leitav läbi DNSi
+DNS resolver - client code built into your operating system
+HOST käsklus
+
+
+
+
+
+
+
 
 Loeng 20.10
 
