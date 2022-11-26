@@ -63,9 +63,18 @@ How would you get nc to listen on port 3456?
 
 Mul puudub manualis klient/server osa
 
-Tegin kaks akent, kus ühes käsklus nc -l 3456 teises nc localhost 3456, iga järgnev text, mis teise aknasse sisestada on kuvatud esimeses aknas
+Tegin kaks akent, kus ühes käsklus nc -l 3456 (server) teises nc localhost 3456 (klient), iga järgnev text, mis teise aknasse sisestada on kuvatud esimeses aknas
+Klient saab ühenduse katkestada cntr+d, (unix end of input)
 
+https://www.ionos.com/digitalguide/server/tools/netcat/ - siin lehel on leitav hea juhend nc kasutamiseks 
+Käsklus nc -h avab manuali
 
+NC ja HTTP
+https://en.wikipedia.org/wiki/List_of_HTTP_header_fields
+Kui saata HTTP request, siis ilmub header pärast käsklust (HEAD; POST; GET; jt). Enamik käsklusi on HEAD käsklused, kus tagastatakse ainult soovitud ressursi päis.
+printf "GET / HTTP/1.1\r\nHost: www.example.com\r\n\r\n" | nc www.example.com 80
+
+printf "GET / HTTP/1.1\r\nHost: www.example.com\r\n\r\n" | nc www.example.com 80 > example.txt - see käsklus salvestab vastuse faili, mille nimi on example.txt
 
 
 
