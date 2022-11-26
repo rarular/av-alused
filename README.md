@@ -97,7 +97,10 @@ Hosti nimi tõlgitakse ip aadressiks läbi DNSi (domain name system)
 A-record - kasutatakse, et leida arvuti aadressi, tema nime järgi. Browserid vaatavad need recordid läbi, et leida õige aadress/teenus.
 Veebilehe omanikud peavad registreerima oma domeeni mõne teenuse pakkuja juures, et lehe ip aadress oleks registreeritud/leitav läbi DNSi
 DNS resolver - client code built into your operating system
-HOST käsklus
+HOST käsklus aitab leida üles utilitid läbi DNSi
+nt:
+![image](https://user-images.githubusercontent.com/115222040/204097599-43b82ae1-1713-4a6b-8353-e67bc5b1a1a5.png)
+
 
 
 
