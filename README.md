@@ -143,6 +143,7 @@ Siin on võimalikke aadresse 2**18 = 262144
 IP aadress ei kuulu masinale vaid masina interfaceile:
 ![image](https://user-images.githubusercontent.com/115222040/205310761-384f3316-1a7d-40d3-9e0d-9f4c275bc030.png)
 
+IP addr show käsklus näitab, mis interface sinu masin kasutab
 
 
 
