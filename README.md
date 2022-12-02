@@ -145,6 +145,16 @@ IP aadress ei kuulu masinale vaid masina interfaceile:
 
 IP addr show käsklus näitab, mis interface sinu masin kasutab
 
+Ruuter on vahend, millega ühendatakse erinevaid ip networke, selleks kasutatakse default gateway'id. Igal networkil on oma default gateway (ruuter).
+
+![image](https://user-images.githubusercontent.com/115222040/205312488-ecbfb19f-26a0-4670-8305-b2691110f946.png)
+
+netstat -nr on käsklus, millega näeb oma deafult gatewayd
+
+Iga majapidamine on ühe IPv4 all
+NAT -network address translation, see tõlgib privaatse ip avalikuks ip-ks ja vastupidi
+
+
 
 
 ## Protocol Layers
