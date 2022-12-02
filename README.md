@@ -7,7 +7,7 @@ https://www.markdownguide.org/basic-syntax
 
 Networking for web developers
 
-From Ping to HTTP
+## From Ping to HTTP
 
 Kasutan testkeskkonda https://cloud.google.com/shell
 
@@ -84,7 +84,7 @@ lsof käsklus kuulab avatud faile, sh võrguühendusi.
 
 selle käsklusega: printf 'HTTP/1.1 302 Moved\r\nLocation: https://www.eff.org/' | nc -l 2345 ja minnes browseris vastavale ip- aadressile, suunatakse eff.org veebilehele. Browseri request kuvatakse nc-s
 
-2.Names and Addresses
+## Names and Addresses
 
 Host - masin, mis hoiab endas mingeid teenuseid.
 Endpoint - kaks masinat suhtlemas üle ühenduse
@@ -128,7 +128,7 @@ IPv4 on vanem.
 IPv4 koosneb neljast punktidega eraldatud 1-bytisest (8biti) numbrist ehk 32bit:
 65535 on bin 1111 1111 1111 1111 ehk suurim võimalik ip aadress
 
-Addressing and Networks
+## Addressing and Networks
 
 
 
