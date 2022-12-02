@@ -129,6 +129,15 @@ IPv4 koosneb neljast punktidega eraldatud 1-bytisest (8biti) numbrist ehk 32bit:
 65535 on bin 1111 1111 1111 1111 ehk suurim võimalik ip aadress
 
 ## Addressing and Networks
+Mõned IPv4 aadressid on reserveeritud kinldatel eesmaärkidel. Avalikke IPv4 aadresse on vähem kui 5 miljardit.
+
+Igal võrgustikul on oma numbrikombinatsioon, millega sellesse kuuluvad ip-d algavad. Mõnel võrgustikul on oma numrite kombinatsioon pikem ja teisel lühem, see sõltub sellest, kui suur võrgustik on. Mida lühem on numbrite kombinatsioon, seda rohkem võrgustiku liikmeid sinna mahub (erinevaid IPsid). Esimene aadress on tavaliselt ruutes ja alumised väärtused on reserveeritud.
+
+Networki suurust on võimalik kirjutada ka kuueteistkümnendsüsteemis. 255.255.255.0 -> ff.ff.ff.00
+
+![image](https://user-images.githubusercontent.com/115222040/205308683-f76c3449-ee72-4aa7-a77c-988d4207cd54.png)
+
+
 
 ## Protocol Layers
 ## Big Networks
