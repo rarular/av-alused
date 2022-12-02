@@ -118,6 +118,7 @@ TTL - time to live ehk aeg, kui kauaks info cache'itud on, et juhul, kui ip muut
 Headeris on hosti/domeeni nimi, sest neid võib ühel lehel olla mitu või samanimelistel lehtedel olla erinevad.
 Kui veebirakendus paigaldab küpsise, siis see on seotud kindla domeeninimega ja järgmise requestiga saadetakse see küpsis tagasi. SSL krüpteering on välja antud kindlale domeenile, sellega takistatakse kolmandatel pooltel privaatset infot lugeda ja kindlustatakse, et klient avab oodatava lehe õigest serverist (mitte mõne pahalase lehe)
 
+![image](https://user-images.githubusercontent.com/115222040/205300123-9637bc63-8852-41c5-97a3-92b7d1b4d29e.png)
 
 
 
