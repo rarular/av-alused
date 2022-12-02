@@ -130,6 +130,8 @@ IPv4 koosneb neljast punktidega eraldatud 1-bytisest (8biti) numbrist ehk 32bit:
 
 ## Addressing and Networks
 
+## Protocol Layers
+## Big Networks
 
 
 
