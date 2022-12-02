@@ -137,6 +137,10 @@ Networki suurust on võimalik kirjutada ka kuueteistkümnendsüsteemis. 255.255.
 
 ![image](https://user-images.githubusercontent.com/115222040/205308683-f76c3449-ee72-4aa7-a77c-988d4207cd54.png)
 
+Siin on võimalikke aadresse 2**18 = 262144
+![image](https://user-images.githubusercontent.com/115222040/205309963-da455c34-f61a-4b50-abe8-c0d76ef2f89b.png)
+
+
 
 
 ## Protocol Layers
