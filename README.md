@@ -121,6 +121,13 @@ Kui veebirakendus paigaldab küpsise, siis see on seotud kindla domeeninimega ja
 ![image](https://user-images.githubusercontent.com/115222040/205300123-9637bc63-8852-41c5-97a3-92b7d1b4d29e.png)
 
 
+Domeeni loomiseks peab seda tegema mõne teenusepakkuja juures (tasuline). Võimalik on osta juba olemasoleva domeeninimi või luua täiesti uus Seal resitreerid oma ipv aadressi A recorordisse, ehk suunad domeeni nime oma ipv4 aadressile.
+
+IPv4 vs IPv6?
+IPv4 on vanem.
+IPv4 koosneb neljast punktidega eraldatud 1-bytisest (8biti) numbrist:
+
+
 
 
 
