@@ -125,8 +125,10 @@ Domeeni loomiseks peab seda tegema mõne teenusepakkuja juures (tasuline). Võim
 
 IPv4 vs IPv6?
 IPv4 on vanem.
-IPv4 koosneb neljast punktidega eraldatud 1-bytisest (8biti) numbrist:
+IPv4 koosneb neljast punktidega eraldatud 1-bytisest (8biti) numbrist ehk 32bit:
+65535 on bin 1111 1111 1111 1111 ehk suurim võimalik ip aadress
 
+Addressing and Networks
 
 
 
